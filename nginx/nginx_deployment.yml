@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sbiswas232/classwebsite2-gha-webapp:v08sep25
+        image: classwebsite2-gha-webapp:v08sep25
         ports:
         - containerPort: 80
         resources:
