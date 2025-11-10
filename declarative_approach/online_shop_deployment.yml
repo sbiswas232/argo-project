@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: sbiswas232/repo1-gha-webapp:v08sep25
+        image: amitabhdevops/online_shop:latest
         ports:
         - containerPort: 3000
         resources:
