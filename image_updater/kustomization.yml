@@ -6,7 +6,7 @@ kind: Kustomization
 resources:
   - deployment.yml
   - service.yml
-  - secret.yml
+  - git-token-update.yml
 
 # (optional) you can put commonLabels or namespace here if you want
 # commonLabels:
